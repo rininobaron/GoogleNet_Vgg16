@@ -26,7 +26,7 @@ import json
 #Load googlenet architecture
 #Google Colab '/content/GoogleNet_Vgg16_thermy/googlenet.json'
 #Kaggle
-with open('/kaggle/working/GoogleNet_Vgg16_thermy/googlenet.json','r') as f:
+with open('/kaggle/working/GoogleNet_Vgg16/googlenet.json','r') as f:
     model_json = json.load(f)
 
 #Load googlenet model weights
