@@ -34,9 +34,9 @@ googlenet_model = model_from_json(json.dumps(model_json))
 
 #Import googlenet model with 'he_uniform' intialization
 #Kaggle
-googlenet_model.load_weights("/kaggle/working/GoogleNet_Vgg16_thermy/googlenet.h5")
+googlenet_model.load_weights("/kaggle/working/GoogleNet_Vgg16/googlenet.h5")
 #Google Colab
-#googlenet_model.load_weights("/content/GoogleNet_Vgg16_thermy/googlenet.h5")
+#googlenet_model.load_weights("/content/GoogleNet_Vgg16/googlenet.h5")
 
 googlenet_model.summary()
 
