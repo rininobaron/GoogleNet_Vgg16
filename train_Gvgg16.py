@@ -80,7 +80,7 @@ y_train = np_utils.to_categorical(y_train)
 y_test = np_utils.to_categorical(y_test)
 
 # parameters
-EPOCHS = 1
+EPOCHS = 10
 INIT_LR = 1e-4
 BS = 32
 CLASS_NUM = 10
