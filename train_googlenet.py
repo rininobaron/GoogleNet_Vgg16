@@ -50,6 +50,7 @@ plt.show()
 
 # reshape the data to four dimensions, due to the input of model
 # reshape to be [samples][width][height][pixels]
+print(x_train.shape)
 x_train = x_train.reshape(x_train.shape[0], 28, 28, 1).astype('float32')
 x_test = x_test.reshape(x_test.shape[0], 28, 28, 1).astype('float32')
 
